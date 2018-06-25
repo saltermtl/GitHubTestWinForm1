@@ -16,5 +16,10 @@ namespace GitHubTestWinForm1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Btn 1 Pressed");
+        }
     }
 }
